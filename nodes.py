@@ -2,7 +2,7 @@ import os
 import sys
 import time
 import folder_paths
-import V_Express
+from .V_Express import *
 from pydub import AudioSegment
 from moviepy.editor import VideoFileClip,AudioFileClip
 from imageio_ffmpeg import get_ffmpeg_exe
